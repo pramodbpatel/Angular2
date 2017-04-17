@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Map</title>
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <link rel="stylesheet" type="text/css" href="http://www.sunwing.ca/Styles/NewStyleSheet.css"></link>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XJWM"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-XJWM');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?client=gme-sunwingcanadainc&v=3.exp&sensor=false&language=en"></script>
+    <script type="text/javascript">
+        var map = new google.maps.LatLng(22.52517, -78.53490);
+        var lang = "en";
+        var brand = "sunwing";
+        var destId = 136;
+        var mapZoom = 10;
+
+        // need star rating and collection category to be pulled dynamically 
+
+        var resortCoordList = [
+
+        ];
+    </script>
+
+
+    <script language="JavaScript" type="text/javascript" src="googlemaps-v2.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://www.sunwing.ca/Styles/googlemap.css" />
+
+</head>
+
+<body>
+
+    <tr class="map-container">
+        <td background="http://www.sunwing.ca/images/lines_07.gif">
+            <div id="map-canvas"></div>
+        </td>
+    </tr>
+
+    <tr class="map-container">
+        <td background="http://www.sunwing.ca/images/lines_07.gif">
+            <div id="maps"></div>
+        </td>
+    </tr>
+</body>
+
+</html>
